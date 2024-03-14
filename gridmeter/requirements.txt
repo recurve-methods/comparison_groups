@@ -17,7 +17,7 @@ plotnine
 seaborn
 
 # development
-jupyterlab==1.1.4
+jupyterlab==3.6.7
 twine==3.2.0
 
 # testing
