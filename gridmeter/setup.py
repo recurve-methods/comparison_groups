@@ -3,7 +3,17 @@ from setuptools import setup, find_packages
 
 OFF_DATAFLOW_REQUIRES = []
 
-INSTALL_REQUIRES = []
+INSTALL_REQUIRES = [
+    "attrs",
+    "numpy>=1.24.4",
+    "scipy>=1.10.1",
+    "pandas>=1.1.0",
+    "numba",
+    "scikit-learn>=1.3.0",
+    "scikit-fda>=0.8.0",
+    "pydantic>=2.0.0",
+    "eval_type_backport",
+]
 EXTRAS_REQUIRE = {"off-dataflow": OFF_DATAFLOW_REQUIRES}
 
 here = os.path.abspath(os.path.dirname(__file__))
